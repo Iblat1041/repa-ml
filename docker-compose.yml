@@ -1,0 +1,8 @@
+services:
+  repa-ml:
+    image: repa-ml-repa-ml
+    ports:
+      - "8002:8002"
+    dns:
+      - 8.8.8.8
+      - 1.1.1.1
